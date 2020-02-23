@@ -1,0 +1,51 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+  background: #136a8a;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #b3e6eb, #6281c9);
+  background: linear-gradient(to left, #b3e6eb, #6281c9);
+}
+.no-padding {
+  padding: 0 !important;
+}
+.no-margin {
+  margin: 0 !important;
+}
+.white {
+  color: white !important;
+}
+.strike-through {
+  text-decoration: line-through;
+}
+textarea {
+  width: 100%;
+  max-width: 100%;
+  min-height: 8em;
+  max-height: 16em;
+}
+strong + small {
+  display: block;
+}
+input[type=checkbox] {
+  margin-right: 1em;
+}
+div.pull-right a {
+  margin-left: 1em;
+}
+.class-1 {
+  background-color: #FFFD7C;
+}
+.class-2 {
+  background-color: #A0FF9A;
+}
+.class-3 {
+  background-color: #FF6161;
+}
+.list-group {
+  margin-top: 60px;
+  padding: 2px;
+}
+.btn-group {
+  margin-left: 65%;
+  position: relative;
+}
